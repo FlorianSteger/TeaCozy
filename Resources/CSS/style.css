@@ -1,0 +1,136 @@
+/** body **/
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  align-items: center;
+}
+
+/** header **/
+
+.head {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+
+  margin: 0 auto;
+}
+
+#label {
+  padding: 10px;
+  display: inline-flex;
+  justify-content: flex-start;
+  width: 70%;
+}
+
+#links {
+  padding: 10px;
+  text-decoration: underline;
+  width: 30%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navLinks {
+  text-decoration: underline;
+  color: seashell;
+}
+
+/** body **/
+
+.main {
+  padding-top: 70px;
+  width: 100%;
+  align-items: center;
+}
+
+/** First paragraph **/
+
+.mission {
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background-image: url('/Users/floriansteger/projects/TeaCozy/Resources/Images/img-mission-background.jpg');
+}
+
+.missionText {
+  background-color: black;
+  width: 100%;
+  padding: 0px;
+}
+
+/** Second Paragraph **/
+
+.teaOfMonth {
+  padding-top: 50px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.teaDescription {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.teaPicture {
+  height: 200px;
+  width: 300px;
+}
+
+h4 {
+  padding: 0px;
+  margin-top: 10px;
+}
+
+/** Third Paragraph **/
+
+.thirdParagraph {
+  height: 500px;
+  width: 1200px;
+  margin: 5px auto 0 auto;
+  background-image: url('/Users/floriansteger/projects/TeaCozy/Resources/Images/img-locations-background.jpg');
+}
+
+#locationTitle {
+  padding-top: 100px;
+  margin-bottom: 15px;
+}
+
+.locations {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.location {
+  width: 300px;
+  height: auto;
+  margin: 15px 20px;
+  opacity: 1;
+  background-color: black;
+
+}
+
+/** Address **/
+
+.address {
+  height: 200px;
+  width: 100%;
+}
+
+/** Footer **/
+
+.footer {
+  padding-left: 20px;
+  text-align: left;
+}
